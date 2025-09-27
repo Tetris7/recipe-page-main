@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: hsl(30, 54%, 90%);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.recipe-image {
+    background: white;
+    padding: 14px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    display: grid;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.recipe-container {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    display: grid;
+}
+
+
+
+.recipe-title {
+    font-size: 15px;
+    margin-bottom: 6px;
+    color: black;
+    font-weight: 400;
+    text-align: left;
+    font-family: "Young Serif", serif;
+}
+
+.recipe-description {
+    font-size: 6.8px;
+    margin-bottom: 9px;
+    color: black;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.prep-time {
+    font-size: 6.8px;
+    margin-bottom: 8px;
+    color: black;
+    text-align: left;
+    font-family: sans-serif;
+    background-color: hsl(352, 60%, 97%);
+    padding: 5px;
+}
+
+.prep-time h2 {
+    font-size: 8px;
+    margin-bottom: 5px;
+    color: hsl(332, 51%, 32%);
+    text-align: left;
+    font-family: "Young Serif", serif;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.prep-time ul {
+    padding-left: 23px;
+    list-style-type: symbols("•");
+}
+
+.prep-time li {
+    font-size: 6.8px;
+    margin-bottom: 3px;
+    color: black;
+    text-align: left;
+    font-family: "outfit", sans-serif;
+    list-style-type: disc;
+}
+.b {
+    font-weight: bold;
+    color: black
+}
+.c {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+    text-align: left;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.d {
+    font-weight: normal;
+    margin-left: 119px;
+    color: hsl(14, 45%, 36%);
+    display: vertical;
+    vertical-align: right
+}
+
+
+
+.ingredients {
+    font-size: 6.8px;
+    margin-bottom: 5px;
+    color: black;
+    text-align: left;
+    font-family: "outfit", sans-serif;
+}
+
+.ingredients h2 {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: hsl(14, 45%, 36%);
+    text-align: left;
+    font-family: "Young Serif", serif;
+    font-weight: bold;
+}
+
+.ingredients ul {
+    padding-left: 15px;
+    list-style-type: symbols("•");
+}
+
+.ingredients li {
+    font-size: 6.8px;
+    margin-bottom: 3px;
+    color: black;
+    text-align: left;
+    font-family: "outfit", sans-serif;
+    list-style-type: disc;
+    padding-left: 2px;
+}
+
+.instructions {
+    font-size: 6.8px;
+    margin-bottom: 5px;
+    color: black;
+    text-align: left;
+    font-family: "outfit", sans-serif;
+}
+
+.instructions h2 {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: hsl(14, 45%, 36%);
+    text-align: left;
+    font-family: "Young Serif", serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.instructions ol {
+    padding-left: 10px;
+    list-style-type: decimal;
+}
+
+.instructions li {
+    font-size: 6.8px;
+    margin-bottom: 3px;
+    color: black;
+    text-align: left;
+    font-family: "outfit", sans-serif;
+    list-style-type: decimal;
+    padding-left: 9px;
+}
+
+
+.nutrition {
+    font-size: 6.8px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: left;
+    font-family: "outfit", sans-serif;
+    margin-top: 10px;
+}
+
+.nutrition h2 {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: hsl(14, 45%, 36%);
+    text-align: left;
+    font-family: "Young Serif", serif;
+    font-weight: bold;
+}
+
+.nutrition-item {
+  display: flex;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.nutrition-item:last-child {
+  border-bottom: none;
+}
+
+.nutrition-label {
+  font-weight: 700;
+    width: 150px;
+  color: hsl(14, 45%, 36%);
+    font-family: "outfit", sans-serif;
+    font-size: 6.8px
+}
+
+.nutrition-value {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+    font-family: "outfit", sans-serif;
+    font-size: 6px;
+    padding-right: 100px;
+}
+
+.attribution {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    font-family: "outfit", sans-serif;
+}
+
+.attribution a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        gap: 40px;
+    }
+}
