@@ -50,7 +50,7 @@ While building this project, I reinforced:
 - Styling a clean card layout with centered alignment  
 - How to visually group sections like "Preparation Time" using background highlights
 
-##Useful Resources
+## Useful Resources
 
 MDN Web Docs - <section> Element
  – Helped me structure content correctly
@@ -58,13 +58,13 @@ MDN Web Docs - <section> Element
 Frontend Mentor Community
  – For layout inspiration
 
-##Author
+## Author
 
-Your Name – ADETORO.H.ADENIYI
+Your Name – ADETORO .H. ADENIYI
 
 Frontend Mentor – @Tetris7
 
-##Acknowledgments
+## Acknowledgments
 
 Thanks to Frontend Mentor for providing clean and fun UI challenges!.
 
