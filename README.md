@@ -1,4 +1,16 @@
 # Frontend Mentor - Recipe Page Solution
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -12,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Recipe Screenshot](./Screenshot-recipe-page.jpg) <!-- Replace with your actual image name or hosted URL -->
+![Screenshot recipe page](https://github.com/user-attachments/assets/92c7517c-26d3-4122-8a7a-bd2dd2b2a027)
 
 ### Links
 
-- *Solution URL:* 
-- *Live Site URL:* Add later
+- *Solution URL:*https://github.com/Tetris7/recipe-page-main.git
+- *Live Site URL:*https://tetris7.github.io/recipe-page-main/
 
 ---
 
@@ -37,17 +49,6 @@ While building this project, I reinforced:
 - Styling a clean card layout with centered alignment  
 - How to visually group sections like "Preparation Time" using background highlights
 
-Here’s a snippet I’m proud of:
-
-```html
-<section class="preparation-time">
-  <h3>Preparation time</h3>
-  <ul>
-    <li><strong>Total:</strong> Approximately 10 minutes</li>
-    <li><strong>Preparation:</strong> 5 minutes</li>
-    <li><strong>Cooking:</strong> 5 minutes</li>
-  </ul>
-</section>
 ##Useful Resources
 
 MDN Web Docs - <section> Element
