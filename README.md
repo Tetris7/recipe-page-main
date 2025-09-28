@@ -11,6 +11,7 @@
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
+- [feedbacks](#feedbacks)
 
 ## Overview
 
@@ -67,6 +68,6 @@ Frontend Mentor – @Tetris7
 
 Thanks to Frontend Mentor for providing clean and fun UI challenges!.
 
-## Feedback
+## Feedbacks
 
 I'm always open to suggestions or improvements , feel free to share any feedback or corrections!
