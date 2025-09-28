@@ -22,10 +22,11 @@ body {
     background: white;
     padding: 14px;
     border-radius: 10px;
-    width: 300px;
+    width: 500px;
     text-align: center;
     display: grid;
     color: black;
+    height: auto;
 }
 
 img {
@@ -56,8 +57,8 @@ img {
 
 
 .recipe-title {
-    font-size: 15px;
-    margin-bottom: 6px;
+    font-size: 27px;
+    margin-bottom: 9px;
     color: black;
     font-weight: 400;
     text-align: left;
@@ -65,16 +66,16 @@ img {
 }
 
 .recipe-description {
-    font-size: 6.8px;
-    margin-bottom: 9px;
+    font-size: 11px;
+    margin-bottom: 10px;
     color: black;
     text-align: left;
     font-family: sans-serif;
 }
 
 .prep-time {
-    font-size: 6.8px;
-    margin-bottom: 8px;
+    font-size: 10px;
+    margin-bottom: 10px;
     color: black;
     text-align: left;
     font-family: sans-serif;
@@ -83,7 +84,7 @@ img {
 }
 
 .prep-time h2 {
-    font-size: 8px;
+    font-size: 10px;
     margin-bottom: 5px;
     color: hsl(332, 51%, 32%);
     text-align: left;
@@ -98,7 +99,7 @@ img {
 }
 
 .prep-time li {
-    font-size: 6.8px;
+    font-size: 10px;
     margin-bottom: 3px;
     color: black;
     text-align: left;
@@ -128,7 +129,7 @@ img {
 
 
 .ingredients {
-    font-size: 6.8px;
+    font-size: 10px;
     margin-bottom: 5px;
     color: black;
     text-align: left;
@@ -136,7 +137,7 @@ img {
 }
 
 .ingredients h2 {
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: 5px;
     color: hsl(14, 45%, 36%);
     text-align: left;
@@ -150,8 +151,8 @@ img {
 }
 
 .ingredients li {
-    font-size: 6.8px;
-    margin-bottom: 3px;
+    font-size: 10px;
+    margin-bottom: 10px;
     color: black;
     text-align: left;
     font-family: "outfit", sans-serif;
@@ -160,16 +161,16 @@ img {
 }
 
 .instructions {
-    font-size: 6.8px;
-    margin-bottom: 5px;
+    font-size: 10px;
+    margin-bottom: 10px;
     color: black;
     text-align: left;
     font-family: "outfit", sans-serif;
 }
 
 .instructions h2 {
-    font-size: 13px;
-    margin-bottom: 5px;
+    font-size: 16px;
+    margin-bottom: 8px;
     color: hsl(14, 45%, 36%);
     text-align: left;
     font-family: "Young Serif", serif;
@@ -183,8 +184,8 @@ img {
 }
 
 .instructions li {
-    font-size: 6.8px;
-    margin-bottom: 3px;
+    font-size: 12px;
+    margin-bottom: 10px;
     color: black;
     text-align: left;
     font-family: "outfit", sans-serif;
@@ -194,8 +195,8 @@ img {
 
 
 .nutrition {
-    font-size: 6.8px;
-    margin-bottom: 10px;
+    font-size: 10px;
+    margin-bottom: 15px;
     color: black;
     text-align: left;
     font-family: "outfit", sans-serif;
@@ -203,12 +204,20 @@ img {
 }
 
 .nutrition h2 {
-    font-size: 13px;
-    margin-bottom: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
     color: hsl(14, 45%, 36%);
     text-align: left;
     font-family: "Young Serif", serif;
     font-weight: bold;
+}
+
+.nutrition-description {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: left;
+    font-family: "outfit", sans-serif;
 }
 
 .nutrition-item {
@@ -223,17 +232,17 @@ img {
 
 .nutrition-label {
   font-weight: 700;
-    width: 150px;
+    width: 250px;
   color: hsl(14, 45%, 36%);
     font-family: "outfit", sans-serif;
-    font-size: 6.8px
+    font-size: 12px
 }
 
 .nutrition-value {
   font-weight: bold;
   color: hsl(14, 45%, 36%);
     font-family: "outfit", sans-serif;
-    font-size: 6px;
+    font-size: 12px;
     padding-right: 100px;
 }
 
@@ -253,7 +262,7 @@ img {
     font-weight: 700;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 376px) {
     .container {
         flex-direction: row;
         gap: 40px;
