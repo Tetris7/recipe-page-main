@@ -60,7 +60,7 @@ Frontend Mentor Community
 
 ## Author
 
-Your Name – ADETORO .H. ADENIYI
+Name – ADETORO .H. ADENIYI
 
 Frontend Mentor – @Tetris7
 
